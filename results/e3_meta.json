@@ -1,0 +1,70 @@
+{
+  "cpu_load_at_end_pct": 51.0,
+  "cpu_load_pct_at_start": 50.2,
+  "crt_version": "0.1.0",
+  "experiment": "e3",
+  "implementation": "CPython",
+  "logical_cpus": 8,
+  "machine": "AMD64",
+  "operators": 52,
+  "platform": "Windows-11-10.0.26200-SP0",
+  "python": "3.12.13",
+  "reps": 10,
+  "rows_per_file": 60,
+  "started_utc": "2026-11-24T00:40:39Z",
+  "summary": {
+    "detection_rate_expected_reject": {
+      "k": 8078,
+      "n": 8078,
+      "wilson95": [
+        0.9995246802475846,
+        1.0
+      ]
+    },
+    "expected_reject": {
+      "accepted_changed": 0,
+      "accepted_invalid": 0,
+      "accepted_same": 0,
+      "false_rejection": 0,
+      "lost": 0,
+      "rejected_reported": 8078,
+      "rows": 8078
+    },
+    "expected_same": {
+      "accepted_changed": 0,
+      "accepted_invalid": 0,
+      "accepted_same": 23182,
+      "false_rejection": 0,
+      "lost": 0,
+      "rejected_reported": 0,
+      "rows": 23182
+    },
+    "false_rejection_rate_expected_same": {
+      "k": 0,
+      "n": 23182,
+      "wilson95": [
+        0.0,
+        0.0001656812364609927
+      ]
+    },
+    "harmless_rows_mangled": {
+      "k": 0,
+      "n": 23182,
+      "wilson95": [
+        0.0,
+        0.0001656812364609927
+      ]
+    },
+    "silent_failure_rate_expected_reject": {
+      "k": 0,
+      "n": 8078,
+      "wilson95": [
+        0.0,
+        0.0004753197524154034
+      ]
+    }
+  },
+  "tz_source_new_york": "fallback-rules",
+  "wall_seconds": 25.0,
+  "zoneinfo_available": false
+}

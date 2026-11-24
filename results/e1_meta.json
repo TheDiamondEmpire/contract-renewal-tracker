@@ -1,0 +1,45 @@
+{
+  "cases": 1500,
+  "cpu_load_pct_at_end": 91.3,
+  "cpu_load_pct_at_start": 81.5,
+  "crt_version": "0.1.0",
+  "events_per_case": 4,
+  "experiment": "e1",
+  "implementation": "CPython",
+  "logical_cpus": 8,
+  "machine": "AMD64",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "python": "3.12.13",
+  "seed": 20260101,
+  "started_utc": "2026-11-24T00:34:04Z",
+  "tz_source_new_york": "fallback-rules",
+  "verdict": {
+    "cases": 1500,
+    "coverage": {
+      "clamped_boundary": 747,
+      "dst_change_on_deadline_day": 6,
+      "events": 5147,
+      "holiday_changed_result": 157,
+      "leap_day_deadline": 45,
+      "weekend_or_holiday_rolled": 752
+    },
+    "disagreements": 0,
+    "dst_edge_disagreements": 0,
+    "dst_edge_kinds": {
+      "gap": 175,
+      "ordinary": 266,
+      "repeated": 159
+    },
+    "dst_edge_samples": 600,
+    "engine_restored_after_mutants": true,
+    "events_compared": 5147,
+    "first_disagreements": [],
+    "micro_add_months_disagreements": 0,
+    "micro_add_months_samples": 4000,
+    "mutants_caught": 13,
+    "mutants_escaped": [],
+    "mutants_total": 13,
+    "seconds": 36.8
+  },
+  "zoneinfo_available": false
+}

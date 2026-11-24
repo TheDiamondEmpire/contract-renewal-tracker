@@ -1,0 +1,14 @@
+mutant,description,cases,caught,catch_rate,wilson_lo,wilson_hi,first_catching_case,caught_by_dst_edge_samples,dst_edge_samples
+repeated_hour_second_pass,a deadline inside a repeated hour uses the second pass,1500,0,0.0,0.0,0.0026,,89,300
+skipped_hour_late,a deadline inside a skipped hour resolves to the later instant,1500,0,0.0,0.0,0.0026,,85,300
+no_month_end_clamp,31 Jan + 1 month overflows into March instead of clamping,1500,124,0.0827,0.0698,0.0977,24,0,300
+century_leap_bug,treats 2100 as a leap year (year % 4 only),1500,3,0.002,0.0007,0.0059,84,0,300
+business_counts_start_day,counts the renewal day itself as a business day,1500,255,0.17,0.1518,0.1898,6,0,300
+holidays_ignored,business days ignore the holiday list,1500,105,0.07,0.0582,0.084,6,0,300
+weekend_hardcoded,business days always use Saturday and Sunday,1500,146,0.0973,0.0833,0.1134,18,0,300
+roll_reversed,'earlier' and 'later' weekend rolls swapped,1500,488,0.3253,0.3021,0.3495,8,0,300
+months_as_30_days,a notice of N months is counted as 30*N days,1500,264,0.176,0.1576,0.1961,0,0,300
+weeks_as_days,a notice of N weeks is counted as N days,1500,98,0.0653,0.0539,0.079,33,0,300
+fixed_offset_ignores_dst,deadline instant uses the January UTC offset all year,1500,515,0.3433,0.3197,0.3677,0,197,300
+renewal_dates_drift,later renewals chain from the previous (clamped) date instead of the start day,1500,60,0.04,0.0312,0.0511,24,0,300
+renewal_one_day_early,first renewal date is one day before the anniversary,1500,1500,1.0,0.9974,1.0,0,0,300

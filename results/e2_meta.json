@@ -1,0 +1,95 @@
+{
+  "classes": {
+    "busy": [
+      0.7,
+      0.8,
+      6.0
+    ],
+    "diligent": [
+      0.92,
+      0.9,
+      3.0
+    ],
+    "overloaded": [
+      0.4,
+      0.6,
+      12.0
+    ]
+  },
+  "contact": [
+    0.9,
+    0.7,
+    2.0
+  ],
+  "contracts": 100,
+  "cpu_load_median_pct": 59.6,
+  "cpu_load_pct_at_start": 79.0,
+  "cpu_load_samples_pct": [
+    76.0,
+    59.6,
+    40.4,
+    45.2,
+    34.6,
+    62.5,
+    96.2,
+    35.4
+  ],
+  "crt_version": "0.1.0",
+  "days": null,
+  "eval_days": 365,
+  "experiment": "e2",
+  "implementation": "CPython",
+  "logical_cpus": 8,
+  "machine": "AMD64",
+  "manager": [
+    0.85,
+    0.85,
+    2.0
+  ],
+  "p_cancel_intent": 0.35,
+  "platform": "Windows-11-10.0.26200-SP0",
+  "python": "3.12.13",
+  "runs": 216,
+  "scenarios_fatigue": {
+    "baseline": 0.05,
+    "high_fatigue": 0.15,
+    "no_fatigue": 0.0
+  },
+  "schedules": {
+    "A": [
+      30
+    ],
+    "B": [
+      90,
+      60,
+      30,
+      7
+    ],
+    "C": [
+      90,
+      60,
+      45,
+      30,
+      21,
+      14,
+      10,
+      7,
+      5,
+      3,
+      2,
+      1
+    ]
+  },
+  "seeds": 20,
+  "sensitivity_seeds": 8,
+  "shared": [
+    0.35,
+    0.5,
+    6.0
+  ],
+  "started_utc": "2026-11-24T00:34:40Z",
+  "tz_source_new_york": "fallback-rules",
+  "wall_seconds": 357.7,
+  "warmup_days": 95,
+  "zoneinfo_available": false
+}

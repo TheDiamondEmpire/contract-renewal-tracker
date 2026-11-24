@@ -1,0 +1,37 @@
+{
+  "contracts": 150,
+  "cpu_load_after_pct": 42.8,
+  "cpu_load_pct_at_start": 48.6,
+  "crt_version": "0.1.0",
+  "experiment": "e4",
+  "implementation": "CPython",
+  "levels": [
+    1,
+    4,
+    8
+  ],
+  "logical_cpus": 8,
+  "machine": "AMD64",
+  "mix": {
+    "api_contracts": 10,
+    "api_deadlines": 10,
+    "api_decision": 5,
+    "api_import_validate": 5,
+    "ui_calendar": 5,
+    "ui_contract": 20,
+    "ui_contracts": 20,
+    "ui_dashboard": 15,
+    "ui_reports": 5,
+    "ui_timeline": 5
+  },
+  "note": "load generator and server share one host; the machine was not idle",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "python": "3.12.13",
+  "reps": 5,
+  "seconds": 8,
+  "started_utc": "2026-11-24T00:41:04Z",
+  "tz_source_new_york": "fallback-rules",
+  "wall_seconds": 182.0,
+  "warmup_s": 1.5,
+  "zoneinfo_available": false
+}

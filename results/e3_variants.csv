@@ -1,0 +1,4 @@
+variant,description,expected_reject_rows,silently_accepted_or_lost,silent_failure_rate,harmless_rows_mangled
+lenient_dates,"accepts US slashes, day-first dashes, compact and month-name dates",2424,246,0.1015,0
+lenient_money,strips every non-digit from an amount,2424,252,0.104,0
+non_strict_csv,does not fail on an unclosed quote,2424,177,0.073,0
